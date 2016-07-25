@@ -1,0 +1,16 @@
+<resources>
+    <color name="naranja">#F64F00</color>
+
+    <string name="app_name">TelecoNote</string>
+
+    <string name="cifrado">Cifrado</string>
+    <string name="listaVacia">Pulsa el menú para añadir una nota</string>
+    <string name="anadir">añadir</string>
+    <string name="borrar_lista">Borrar lista</string>
+    <string name="info">Info</string>
+    <string name="confirmar_borrar_lista">¿Borrar TODAS las notas?</string>
+    <string name="si">si</string>
+    <string name="no">no</string>
+    <string name="cifrar">Cifrar</string>
+    <string name="descifrar">Descifrar</string>
+</resources>

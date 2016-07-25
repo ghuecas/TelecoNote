@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_annadir"
+        android:icon="@drawable/ic_menu_crear"
+        android:title="@string/anadir">
+    </item>
+    <item
+        android:id="@+id/menu_borrar_lista"
+        android:icon="@drawable/ic_menu_borrar"
+        android:title="@string/borrar_lista">
+    </item>
+    <item
+        android:id="@+id/menu_ayuda"
+        android:icon="@drawable/ic_menu_ayuda"
+        android:title="@string/info">
+    </item>
+</menu>

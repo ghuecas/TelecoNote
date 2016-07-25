@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".DetalleNotaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/teleconote" />
+
+        <ImageView
+            android:id="@+id/imageCifrado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/cifrado"
+            android:src="@drawable/ic_menu_cifrar" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"  />
+    <!--                 android:progressDrawable="@drawable/orange_progress" -->
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Título"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/naranja" />
+
+    <EditText
+        android:id="@+id/editTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Introduzca el titulo" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contenido"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/naranja" />
+
+    <EditText
+        android:id="@+id/editContenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:ems="10"
+        android:hint="Introduzca el contenido" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categoria"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/naranja" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="2"
+        android:ems="10"
+        android:hint="Introduzca la categoría" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/bottonAnadir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/naranja"
+            android:padding="15dp"
+            android:text="Guardar"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/botonCifrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/bottonAnadir"
+            android:background="@color/naranja"
+            android:padding="15dp"
+            android:text="@string/cifrar"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/botonCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/botonCifrar"
+            android:background="@color/naranja"
+            android:padding="15dp"
+            android:text="Cancelar"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+</LinearLayout>

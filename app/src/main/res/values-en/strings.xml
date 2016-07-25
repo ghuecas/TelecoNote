@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TelecoNote</string>
+
+    <string name="cifrado">Ciphered</string>
+    <string name="listaVacia">Click menu to add a note</string>
+    <string name="anadir">add</string>
+    <string name="borrar_lista">Delete list</string>
+    <string name="confirmar_borrar_lista">Delete ALL notes?</string>
+    <string name="si">yes</string>
+    <string name="no">no</string>
+
+</resources>
